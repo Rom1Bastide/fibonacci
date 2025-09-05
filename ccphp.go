@@ -4,6 +4,7 @@ package main
 import(
 	"C"
     "github.com/dunglas/frankenphp"
+	"unsafe"
 )
 
 //export_php:function fibonacci_naive(int $n): int

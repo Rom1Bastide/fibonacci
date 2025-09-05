@@ -6,6 +6,7 @@ package ccphp
 */
 import "C"
 import "github.com/dunglas/frankenphp"
+import "unsafe"
 
 func init() {
 	frankenphp.RegisterExtension(unsafe.Pointer(&C.ccphp_module_entry))
